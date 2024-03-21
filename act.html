@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasaload System</title>
+    <style>
+  body {
+    background-image: url('bank.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: repeat;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+s
+label {
+    margin-bottom: 10px;
+}
+
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff; 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Pasaload System</h1>
+    <label for="sender">Your Mobile Number:</label>
+    <input type="text" id="sender" placeholder="Your mobile number"><br><br>
+
+    <label for="recipient">Recipient's Mobile Number:</label>
+    <input type="text" id="recipient" placeholder="Recipient's mobile number"><br><br>
+
+    <label for="amount">Amount to Transfer:</label>
+    <input type="text" id="amount" placeholder="Amount to transfer"><br><br>
+
+    <button id="transferButton">Transfer Credit</button>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
